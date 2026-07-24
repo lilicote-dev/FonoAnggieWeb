@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://lilicote-dev.github.io/FonoAnggieWeb/sitemap.xml
