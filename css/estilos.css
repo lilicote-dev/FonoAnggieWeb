@@ -894,8 +894,8 @@ body {
 .whatsapp-float{
 
     position:fixed;
-    bottom:25px;
-    right:25px;
+    bottom:80px;
+right:30px;
     background:#25D366;
     color:white;
     width:60px;
@@ -917,4 +917,206 @@ body {
     transform:scale(1.1);
 
 }
+/*====================================
+  ¿POR QUÉ ELEGIR A LA DRA. ANGGIE?
+====================================*/
 
+.porque-elegir{
+
+    background:#f8fbff;
+
+    padding:80px 20px;
+
+}
+
+.porque-elegir p{
+
+    color:#666;
+
+    font-size:18px;
+
+}
+
+.card-beneficio{
+
+    background:#ffffff;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    text-align:center;
+
+    height:100%;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.card-beneficio:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 40px rgba(0,119,182,.20);
+
+}
+
+.icono{
+
+    font-size:55px;
+
+    margin-bottom:20px;
+
+}
+
+.card-beneficio h4{
+
+    color:#0077b6;
+
+    margin-bottom:15px;
+
+    font-weight:bold;
+
+}
+
+.card-beneficio p{
+
+    font-size:16px;
+
+    color:#555;
+
+    line-height:1.6;
+
+}
+/* TESTIMONIOS */
+
+.testimonio-card {
+
+    border: none;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+
+.testimonio-card:hover {
+
+    transform: translateY(-10px);
+
+}
+
+
+.avatar-testimonio {
+
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+
+}
+
+
+.estrellas {
+
+    font-size: 22px;
+    margin-top: 15px;
+
+}
+/*/* BOTÓN VOLVER ARRIBA */
+
+.btn-arriba {
+
+    position: fixed;
+    bottom:110px;
+    right:90px;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    border: none;
+
+    font-size: 22px;
+
+    cursor: pointer;
+
+    background: #0d6efd;
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    z-index: 1001;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+
+}
+
+
+.btn-arriba:hover {
+
+    transform: translateY(-5px);
+
+}
+/* AJUSTE MENU CELULAR */
+
+@media (max-width: 991px){
+
+    .navbar-collapse{
+
+        max-height: 80vh;
+        overflow-y: auto;
+
+    }
+
+}
+/* AJUSTE MENU MOVIL */
+
+@media (max-width: 768px){
+
+    .navbar{
+
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+    }
+
+
+    .logo-menu{
+
+        width: 45px;
+        height: 45px;
+
+    }
+
+
+    .navbar-brand{
+
+        font-size: 16px;
+
+    }
+
+
+    .navbar-toggler{
+
+        padding: 5px 8px;
+
+    }
+
+
+    .navbar-collapse{
+
+        background:white;
+        padding:15px;
+        border-radius:15px;
+
+    }
+
+}
